@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --color-primary: #FE1501;
+  --color-medium: #FF3F10;
+  --color-secondary: #FA9100;
+  --color-primary-2: #5EC0F8;
+  --color-secondary-2: #FF8484;
+  --color-dark: #111111;
+  --skeleton-primary: #656871;
+  --skeleton-secondary: #82848a;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.border-primary{
+  border-color: var(--color-primary);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+button, select, input{
+  outline: none;
+}
