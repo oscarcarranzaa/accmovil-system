@@ -1,0 +1,18 @@
+.button_go_link{
+  opacity: 0;
+  transition: transform  200ms linear;
+  background-color: black;
+  fill: white;
+  padding: 10px 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.button_go_link:hover{
+  background-color: white;
+  fill: black;
+  border: 1px solid #000;
+}
+.cont_hover:hover > .button_go_link{
+  opacity: 1;
+  transform: translateY(-10px);
+}
