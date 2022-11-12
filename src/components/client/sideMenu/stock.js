@@ -34,7 +34,7 @@ export default function StockMenu({ children }) {
         <div className="col-span-3">
           <ItemsMenu elements={Links} />
         </div>
-        <div className="col-span-9 ">{children}</div>
+        <div className="col-span-9 -mt-12">{children}</div>
       </div>
     </>
   )

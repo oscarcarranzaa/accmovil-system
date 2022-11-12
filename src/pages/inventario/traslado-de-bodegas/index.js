@@ -62,7 +62,7 @@ export default function Transfer() {
     <>
       <Wrapper>
         <StockMenu>
-          <div className="-mt-16">
+          <div>
             <MenuOptions
               action={actions}
               path={'inventario/traslado-de-bodegas/'}

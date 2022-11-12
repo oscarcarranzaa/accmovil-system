@@ -48,7 +48,7 @@ export default function MenuOptions({ action }) {
                 </button>
               </div>
               <div
-                className={`absolute top-12 left-0 bg-white p-3 border border-zinc-400 rounded-md min-w-[250px] ${
+                className={`absolute z-10 top-12 left-0 bg-white p-3 border border-zinc-400 rounded-md min-w-[250px] ${
                   open ? 'block' : 'hidden'
                 }`}
                 tabIndex={-1}
